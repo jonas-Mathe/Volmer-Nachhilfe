@@ -363,7 +363,7 @@ width: 100%;
 #math-field-rechnung2 {
 cursor: text;
 font: bold 16px Arial, sans-serif;
-width: 100%
+width: 100%;
 }
 
 #math-field-rechnung3 {
@@ -375,11 +375,11 @@ width: 100%;
 #math-field-rechnung4 {
 cursor: text;
 font: bold 16px Arial, sans-serif;
-width: 100%
+width: 100%;
 }
 
 #math-field-rechnung5 {
 cursor: text;
 font: bold 16px Arial, sans-serif;
-100%
+width: 100%;
 }
