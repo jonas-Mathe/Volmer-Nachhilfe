@@ -383,3 +383,27 @@ cursor: text;
 font: bold 16px Arial, sans-serif;
 width: 100%;
 }
+
+div[data-keyboard], 
+.ML__keyboard,
+.mathlive-keyboard-container {
+  width: 100vw !important;
+  max-width: 100% !important;
+  
+  left: 0 !important;
+  right: 0 !important;
+  box-sizing: border-box !important;
+}
+
+.ML__keyboard .rows, 
+.ML__keyboard .row {
+  width: 100% !important;
+  display: flex !important;
+  justify-content: space-between !important;
+}
+
+.ML__keyboard .keycap {
+  flex: 1 !important;
+  min-width: 0 !important; 
+  padding: 0 !important;
+}
