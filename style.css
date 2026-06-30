@@ -67,6 +67,8 @@ width: fit-content;
 #das-bild{
 border: solid;
 border-radius: 5px;
+width: fit-content;
+height: auto;
 }
 
 #fettText {
@@ -77,7 +79,7 @@ color: blue;
 #best {
 border: 1px solid #ccc;
 padding: 5px;
-display: block;
+display: flex;
 width: 20px;
 }
 
@@ -162,11 +164,17 @@ body {
     font-family: Arial, sans-serif;
     background-color: #f0f0f0;
     padding: 20px;
-    display: flex;
     flex-direction: column;
     height: auto;
-    width: 100%;
+    margin: 0;                 
+    display: flex;
+    flex-wrap: wrap;           
+    gap: 15px;               
+    width: fit-content;
+    max-width: 100%;
 }
+
+
 
 #halt2 {
 padding: 20px;
